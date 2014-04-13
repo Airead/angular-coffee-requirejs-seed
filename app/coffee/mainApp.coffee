@@ -8,6 +8,7 @@ define [
   #custom
   'controllers/index'
 ], (angular) ->
+  console.log('mainApp init')
   angular.module 'app', [
     'ngRoute',
     'ui.bootstrap'
