@@ -14,6 +14,6 @@ require.config
     'angular-bootstrap': {deps: ['angular']}
     'angular-bootstrap-tpls': {deps: ['angular']}
 
-require ['jQuery', 'angular', './mainApp'], ($, angular) ->
+require ['jQuery', 'angular', './routes'], ($, angular) ->
   $ ->
-    angular.bootstrap document, ['mainApp']
+    angular.bootstrap document, ['app']

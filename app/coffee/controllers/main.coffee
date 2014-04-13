@@ -1,5 +1,5 @@
 define ['./base'], (indexCtlModule) ->
-  indexCtlModule.controller 'HomeCtl',
+  indexCtlModule.controller 'MainCtl',
     [
       '$scope',
       ($scope) ->

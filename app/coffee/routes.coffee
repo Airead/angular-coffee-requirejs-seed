@@ -2,7 +2,7 @@ define ['./mainApp'], (app) ->
   app.config ($routeProvider) ->
     $routeProvider
       .when '/',
-        template: '<h1>hello</h1>', controller: 'HomeCtl'
+        template: '<h1>hello {{name}} </h1>', controller: 'MainCtl'
 #      .when '/signup',
 #        templateUrl: 'views/sessions/signup.html', controller: 'sessions.SignupCtrl'
 #      .when '/signin',
