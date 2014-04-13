@@ -1,6 +1,4 @@
 define [
-  'angular',
-  'angular-route',
+  './base',
   './home'
-], (angular) ->
-  angular.module('controllers', [])
+], ->

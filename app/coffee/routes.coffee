@@ -1,8 +1,8 @@
-define ['mainApp'], (app) ->
+define ['./mainApp'], (app) ->
   app.config ($routeProvider) ->
     $routeProvider
       .when '/',
-        template: '<h1>hello</h1>', controller: 'HomeCtrl'
+        template: '<h1>hello</h1>', controller: 'HomeCtl'
 #      .when '/signup',
 #        templateUrl: 'views/sessions/signup.html', controller: 'sessions.SignupCtrl'
 #      .when '/signin',
