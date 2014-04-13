@@ -5,3 +5,5 @@ OpenBorad web
 De
 ================
 bower install angular-bootstrap
+bower install angular-ui
+bower install bootstrap
